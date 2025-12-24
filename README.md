@@ -197,7 +197,7 @@ flutter run                    # Pilih device yang tersedia
 
 ## 👨‍💻 Author
 
-**[Nama Kamu]**  
+Prayoga Trie Mukhti
 Latihan REST API - Pak Fauzan Flutter Course
 
 ---
