@@ -1,0 +1,77 @@
+# ===========================
+# CodeIgniter 4 (backend-ci4)
+# ===========================
+backend-ci4/writable/cache/*
+!backend-ci4/writable/cache/index.html
+backend-ci4/writable/logs/*
+!backend-ci4/writable/logs/index.html
+backend-ci4/writable/session/*
+!backend-ci4/writable/session/index.html
+backend-ci4/writable/uploads/*
+!backend-ci4/writable/uploads/index.html
+backend-ci4/writable/debugbar/*
+!backend-ci4/writable/debugbar/.gitkeep
+
+backend-ci4/vendor/
+backend-ci4/composer.lock
+
+# Environment file
+backend-ci4/.env
+backend-ci4/phpunit*.xml
+backend-ci4/.phpunit.*.cache
+
+# ===========================
+# Flutter (flutter_app)
+# ===========================
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/.pub-cache/
+flutter_app/.pub/
+flutter_app/build/
+flutter_app/.metadata
+
+# Android
+flutter_app/android/.gradle/
+flutter_app/android/local.properties
+flutter_app/android/gradle/
+flutter_app/android/gradlew*
+flutter_app/android/.idea/
+flutter_app/android/captures/
+flutter_app/android/app/*.iml
+flutter_app/android/app/google-services.json
+
+# iOS
+flutter_app/ios/Flutter/flutter_export_environment.sh
+flutter_app/ios/Flutter/Generated.xcconfig
+flutter_app/ios/Flutter/.last_build_id
+flutter_app/ios/Pods/
+flutter_app/ios/Podfile.lock
+flutter_app/ios/.symlinks/
+flutter_app/ios/Runner.xcworkspace
+
+# Web
+flutter_app/web/.firebase/
+
+# Windows
+flutter_app/windows/flutter/
+
+# macOS
+flutter_app/macos/Flutter/
+
+# Linux
+flutter_app/linux/flutter/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+
+# Misc
+*.log
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
